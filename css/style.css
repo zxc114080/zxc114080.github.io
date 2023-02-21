@@ -112,7 +112,7 @@ body {
   margin-bottom: 4px;
   white-space: nowrap;
 }
-.nav-frame .nav-box-2 {
+.nav-frame .header-nav-box {
   float: right;
   width: 843px;
   height: 56px;
@@ -120,10 +120,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.nav-frame .nav-box-2 .nav-menu .nav-item {
+.nav-frame .header-nav-box .nav-menu .nav-item {
   float: left;
 }
-.nav-frame .nav-box-2 .nav-menu .nav-item .nav-link {
+.nav-frame .header-nav-box .nav-menu .nav-item .nav-link {
   color: #CCC;
   display: block;
   font-weight: 600;
@@ -134,9 +134,8 @@ body {
   margin-right: 32px;
   transition: all 0.1S;
 }
-.nav-frame .nav-box-2 .nav-menu .nav-item .nav-link:hover {
+.nav-frame .header-nav-box .nav-menu .nav-item .nav-link:hover {
   color: #fff;
-  border-bottom: 2px solid #1E50FF;
 }
 .nav-frame .nav-btn {
   float: right;
@@ -321,10 +320,16 @@ body {
 }
 .hero-card-1 .card-box-3 .card-user {
   display: inline-block;
-  height: 56px;
+  vertical-align: top;
+}
+.hero-card-1 .card-box-3 .card-user .user-image {
+  display: inline-block;
+  vertical-align: top;
 }
 .hero-card-1 .card-box-3 .card-user .card-text-0 {
-  float: right;
+  display: inline-block;
+  vertical-align: top;
+  height: 56px;
   padding-left: 16px;
 }
 .hero-card-1 .card-box-3 .card-user .card-text-0 .card-text-1 {
@@ -740,6 +745,65 @@ body {
   line-height: 24px;
   padding: 16px 0;
   font-size: 14px;
+}
+
+.owl-theme .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.owl-theme .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background-color: #ced4da;
+  outline: none;
+}
+
+.owl-theme .owl-dots button.owl-dot.active {
+  background-color: #1E50FF;
+}
+
+.owl-theme .owl-nav {
+  position: absolute;
+  left: 0;
+  top: calc((100% - 154px) / 2);
+  width: 100%;
+}
+
+.owl-theme .owl-nav button.owl-prev,
+.owl-theme .owl-nav button.owl-next {
+  width: 50px;
+  height: 50px;
+  background-color: #1E50FF;
+  border-radius: 50%;
+  outline: none;
+  color: #fff;
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  transform: translate(0, -50%);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.owl-theme:hover .owl-nav button.owl-prev,
+.owl-theme:hover .owl-nav button.owl-next {
+  opacity: 1;
+}
+
+.owl-theme .owl-nav button.owl-prev {
+  left: -26px;
+}
+
+.owl-theme .owl-nav button.owl-next {
+  right: -26px;
+}
+
+.owl-theme .user-image {
+  width: 56px;
+  height: 56px;
 }
 
 /* -------------------------- *\
