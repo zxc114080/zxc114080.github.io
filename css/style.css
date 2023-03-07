@@ -1,22 +1,4 @@
-/*
- * Page name
- * Copyright 2023
- * Author
- * Licensed
- */
-/* -------------------------- *\
-	Content
-\* -------------------------- */
-/**
- * Content ............ You are reading it!
- * Globel ............ Set common styles
- * Layout ............ Set grid styles
- * Component ............ Set component styles
- * Utility ............ Set some tools style
- **/
-/* -------------------------- *\
-	Globel
-\* -------------------------- */
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   position: relative;
@@ -59,18 +41,12 @@ body {
   text-align: center;
 }
 
-/* -------------------------- *\
-    Layout
-\* -------------------------- */
 .container {
   max-width: 1200px;
   padding: 0;
   margin: 0 auto;
 }
 
-/* -------------------------- *\
-    Component
-\* -------------------------- */
 .wrapper {
   background-color: #02050E;
   height: 100vh;
@@ -613,7 +589,6 @@ body {
   background: radial-gradient(151.95% 463.58% at -44.29% -62.34%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
   -webkit-backdrop-filter: blur(37px);
           backdrop-filter: blur(37px);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 16px;
 }
 .CTA .CTA-title {
@@ -803,8 +778,4 @@ body {
 .owl-theme .user-image {
   width: 56px;
   height: 56px;
-}
-
-/* -------------------------- *\
-	Utility
-\* -------------------------- *//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=Style.css.map */

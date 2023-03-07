@@ -1,20 +1,20 @@
-/*
- * Page name
- * Copyright 2023
- * Author
- * Licensed
- */
-/* -------------------------- *\
-	Content
-\* -------------------------- */
 
-/**
- * Content ............ You are reading it!
- * Globel ............ Set common styles
- * Layout ............ Set grid styles
- * Component ............ Set component styles
- * Utility ............ Set some tools style
- **/
+// * Page name
+// * Copyright 2023
+// * Author
+// * Licensed
+
+
+	// Content
+
+
+
+//  * Content ............ You are reading it!
+//  * Globel ............ Set common styles
+//  * Layout ............ Set grid styles
+//  * Component ............ Set component styles
+//  * Utility ............ Set some tools style
+
 
  @import "Global.scss";
  
@@ -36,9 +36,9 @@ body{
     color: #fff;
     text-align: center;
 }
-/* -------------------------- *\
-    Layout
-\* -------------------------- */
+
+    // Layout
+
 .container{
     // border :1px solid #fff;
     max-width: 1200px;
@@ -47,9 +47,9 @@ body{
     margin: 0 auto;
 }
 
-/* -------------------------- *\
-    Component
-\* -------------------------- */
+
+    // Component
+
 .wrapper{
     background-color: #02050E;
     height: 100vh;
@@ -98,12 +98,8 @@ body{
         display: flex;
         justify-content: space-between;
 
-        .nav-menu{    
-            // width: 520px;
-            // border: 1px solid #1E50FF;
-
+        .nav-menu{
             .nav-item{
-                // border: 1px solid #1E50FF;
                 float: left;
                 .nav-link{
                     color: #CCC;
@@ -115,8 +111,6 @@ body{
                     padding-bottom: 12px;
                     margin-right: 32px;
                     transition: all 0.1S;
-                    // padding: 12px 16px;
-                    // border: 1px solid #1E50FF;
                 }
                 .nav-link:hover{
                     color: #fff;
@@ -128,7 +122,6 @@ body{
         float: right;
         width: 158px;
         height: 56px;
-        
         .nav-wallet{
             border: 1px solid #1E50FF;
             border-radius: 16px;
@@ -147,10 +140,6 @@ body{
 }
 // hero
 .hero{
-    // border: 1px solid #FFF;
-    // position: absolute;
-    // width: 100%;
-    // height: 768px;
     top: 0;
     left: 0;
     .container{
@@ -188,7 +177,6 @@ body{
         border-radius: 16px;
         margin-top: 40px;
         transition: all 0.3s;
-        
         .hero-text{
             display: block;
             font-size: 16px;
@@ -209,13 +197,11 @@ body{
 .hero-card-1{
     width: 400px;
     margin-right: 100px;
-    // background-color: #272D37;
     .card-box-1{
         width: 352px;     
         margin-left: 24px;
         margin-bottom: 48px;
         height: 352px;
-
         .card-image{
             position: absolute;
             padding-top: 100%;
@@ -227,7 +213,6 @@ body{
 	        // background-size: cover;
 	        background-position: center;
         }
-
     }
     .card-box-1:before{
         content: '';
@@ -276,7 +261,6 @@ body{
         width: 353px;
         height: 32px;
         padding-bottom: 24px;
-        // border: 1px solid #fff;
         display: flex;
         justify-content: space-between;
         text-align: center;
@@ -360,14 +344,6 @@ body{
         }
     }
 }
-
-// .hero-card-2{
-//     position: absolute;
-//     width: 400px;
-//     height: 400px;
-//     top: 184px;
-//     left: 1440px;
-// }
 // logo
 .logo-brand{
     display: flex;
@@ -387,7 +363,6 @@ body{
 .yourNFTs-text-box{
     width: 583px;
     height: 128px;
-    // display: inline-block;
     margin: 0 auto;
     margin-bottom: 56px;
     .yourNFTs-text{
@@ -494,7 +469,6 @@ body{
     background-color: #272D37;
     border-radius: 16px;
     .FA-img-container{
-
         border-radius: 16px;
         overflow: hidden;
         /*border: 1px solid #000;*/
@@ -507,7 +481,6 @@ body{
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-
         }
     }
     .FA-img-container:before{
@@ -623,9 +596,8 @@ body{
     border: 1px solid #fff;
     text-align: center;
     margin-bottom: 160px;
-    background: radial-gradient(151.95% 463.58% at -44.29% -62.34%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: radial-gradient(151.95% 463.58% at -44.29% -62.34%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
     backdrop-filter: blur(37px);
-    /* Note: backdrop-filter has minimal browser support */
     border-radius: 16px;
     .CTA-title{
         font-weight: 700;
@@ -765,7 +737,6 @@ body{
     margin: 0 4px;
     border-radius: 50%;
     background-color: #ced4da;
-
     outline: none;
 }
 .owl-theme .owl-dots button.owl-dot.active{
@@ -811,6 +782,5 @@ body{
 //     top: 0;
 //     left: 0;
 // }
-/* -------------------------- *\
-	Utility
-\* -------------------------- */
+
+	// Utility
