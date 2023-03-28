@@ -1,0 +1,73 @@
+.nav-frame {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+.nav-frame .nav-box-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 0;
+  width: 140px;
+  height: 40px;
+}
+.nav-frame .nav-box-1 .nav-images {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 0;
+  top: 0;
+  width: 43px;
+  height: 40px;
+}
+.nav-frame .nav-box-1 .nav-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  padding-left: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+.nav-frame .header-nav-box {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-frame .header-nav-box .nav-item {
+  float: left;
+}
+.nav-frame .header-nav-box .nav-item .nav-link {
+  color: #CCC;
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 32px;
+  transition: all 0.1S;
+}
+.nav-frame .header-nav-box .nav-item .nav-link:hover {
+  color: #fff;
+}
+.nav-frame .nav-btn {
+  width: 158px;
+}
+.nav-frame .nav-btn .nav-wallet {
+  border: 1px solid #1E50FF;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 12px 16px;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+.nav-frame .nav-btn .nav-wallet:hover {
+  background-color: #1E50FF;
+  color: #fff;
+}/*# sourceMappingURL=header.css.map */

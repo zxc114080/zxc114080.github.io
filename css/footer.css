@@ -1,0 +1,101 @@
+.footer-logo {
+  display: inline-block;
+  margin-top: 88px;
+  vertical-align: top;
+}
+.footer-logo .nav-box-1 {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 0;
+}
+.footer-logo .nav-box-1 .nav-images {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 43px;
+  height: 40px;
+}
+.footer-logo .nav-box-1 .nav-text {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  padding-left: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+.footer-logo .footer-para {
+  display: block;
+  color: #ADB9C7;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  width: 392px;
+}
+
+.footer-Resources {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 88px;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+.footer-Company {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 88px;
+}
+
+.footer-Contact {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 88px;
+  width: 179px;
+  margin-left: 88px;
+}
+.footer-Contact .footer-Contact-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ADB9C7;
+}
+
+.footer-Resources-title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.footer-Resources-text .footer-Resources-item {
+  margin-bottom: 16px;
+}
+.footer-Resources-text .footer-Resources-item .footer-Resources-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ADB9C7;
+}
+
+.footer-Contact-item {
+  display: inline-block;
+  margin-right: 24px;
+  margin-top: 16px;
+  width: 32px;
+  font-size: 32px;
+  line-height: 32px;
+  border: 1px solid #fff;
+}
+
+.copyright {
+  color: #ccc;
+  text-align: center;
+  line-height: 24px;
+  padding: 16px 0;
+  font-size: 14px;
+}/*# sourceMappingURL=footer.css.map */

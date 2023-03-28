@@ -42,7 +42,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1199px;
   padding: 0;
   margin: 0 auto;
 }
@@ -88,17 +88,13 @@ body {
   white-space: nowrap;
 }
 .nav-frame .header-nav-box {
-  float: right;
-  width: 843px;
-  height: 56px;
-  margin-left: 199px;
   display: flex;
   justify-content: space-between;
 }
-.nav-frame .header-nav-box .nav-menu .nav-item {
+.nav-frame .header-nav-box .nav-item {
   float: left;
 }
-.nav-frame .header-nav-box .nav-menu .nav-item .nav-link {
+.nav-frame .header-nav-box .nav-item .nav-link {
   color: #CCC;
   display: block;
   font-weight: 600;
@@ -109,13 +105,11 @@ body {
   margin-right: 32px;
   transition: all 0.1S;
 }
-.nav-frame .header-nav-box .nav-menu .nav-item .nav-link:hover {
+.nav-frame .header-nav-box .nav-item .nav-link:hover {
   color: #fff;
 }
 .nav-frame .nav-btn {
-  float: right;
   width: 158px;
-  height: 56px;
 }
 .nav-frame .nav-btn .nav-wallet {
   border: 1px solid #1E50FF;
@@ -185,20 +179,32 @@ body {
   background-color: #1E50FF;
 }
 
+.card-container {
+  display: flex;
+}
+
+.card-container .hero-card-1 {
+  margin-left: 48px;
+  margin-right: 27px;
+}
+
 .hero-card-1 {
+  margin-right: 20px;
   width: 400px;
-  margin-right: 100px;
+  background-color: #272D37;
+  border-radius: 24px;
 }
 .hero-card-1 .card-box-1 {
-  width: 352px;
-  margin-left: 24px;
+  width: 400px;
   margin-bottom: 48px;
   height: 352px;
 }
 .hero-card-1 .card-box-1 .card-image {
+  width: 400px;
+  height: 352px;
   position: absolute;
   padding-top: 100%;
-  top: 24px;
+  top: 0;
   left: 0;
   bottom: 0;
   right: 0;
@@ -216,8 +222,9 @@ body {
   width: 192px;
   height: 42px;
   position: absolute;
-  top: 294px;
-  left: 84px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: #0F182E;
   border-radius: 16px;
 }
@@ -334,6 +341,14 @@ body {
   text-align: justify;
 }
 
+.hero-card-1.hero-card-1_adjust {
+  margin-left: 0;
+  height: 400px;
+}
+.hero-card-1.hero-card-1_adjust .card-box-1 {
+  margin-bottom: 0;
+}
+
 .logo-brand {
   display: flex;
   justify-content: space-between;
@@ -411,25 +426,6 @@ body {
 }
 .SLA-frame .SLA-btn:hover {
   background-color: #1E50FF;
-}
-
-.SLA-card {
-  padding: 0;
-  margin: 0;
-  width: 33.33333333%;
-}
-
-.SLA .hero-card-1 {
-  background-color: #272D37;
-  border-radius: 24px;
-  padding: 0;
-  margin: 0;
-}
-.SLA .card-box-2 {
-  margin-top: 56px;
-}
-.SLA .card-box-3 {
-  padding-bottom: 24px;
 }
 
 .FA-frame {
