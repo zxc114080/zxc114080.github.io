@@ -1,13 +1,13 @@
 // header
 // navbar
-.nav-frame{
+.navbox__frame{
     display: flex;
     justify-content: space-between;
     height: 56px;
     padding: 0;
     width: 100%;
     margin-top: 20px;
-    .nav-box-1{
+    .navbox{
         display: flex;
         justify-content: space-between;
         margin-top: 8px;
@@ -15,7 +15,7 @@
         padding: 0;
         width: 140px;
         height: 40px;
-        .nav-images{
+        .navbox__images{
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -24,7 +24,7 @@
             width: 43px;
             height: 40px;
         }
-        .nav-text{
+        .navbox__text{
             font-size: 16px;
             font-weight: 600;
             line-height: 32px;
@@ -34,12 +34,12 @@
             white-space: nowrap;
         }
     }
-    .header-nav-box{
+    .header-navbox{
         display: flex;
         justify-content: space-between;
-        .nav-item{
+        .navmenu__item{
             float: left;
-            .nav-link{
+            .navmenu__link{
                 color: #CCC;
                 display: block;
                 font-weight: 600;
@@ -50,14 +50,14 @@
                 margin-right: 32px;
                 transition: all 0.1S;
             }
-            .nav-link:hover{
+            .navmenu__link:hover{
                 color: #fff;
             }
         } 
     }
-    .nav-btn{
+    .navbtn--connect{
         width: 158px;
-        .nav-wallet{
+        .navbtn__wallet{
             border: 1px solid #1E50FF;
             border-radius: 16px;
             font-weight: 600;
@@ -67,7 +67,7 @@
             white-space: nowrap;
             transition: all 0.3s;
         }
-        .nav-wallet:hover{
+        .navbtn__wallet:hover{
             background-color: #1E50FF;
             color: #fff;
         }

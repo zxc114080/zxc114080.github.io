@@ -52,7 +52,7 @@ body {
   height: 100vh;
 }
 
-.nav-frame {
+.navbox__frame {
   display: flex;
   justify-content: space-between;
   height: 56px;
@@ -60,7 +60,7 @@ body {
   width: 100%;
   margin-top: 20px;
 }
-.nav-frame .nav-box-1 {
+.navbox__frame .nav-box-1 {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
@@ -69,7 +69,7 @@ body {
   width: 140px;
   height: 40px;
 }
-.nav-frame .nav-box-1 .nav-images {
+.navbox__frame .nav-box-1 .nav-images {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -78,7 +78,7 @@ body {
   width: 43px;
   height: 40px;
 }
-.nav-frame .nav-box-1 .nav-text {
+.navbox__frame .nav-box-1 .nav-text {
   font-size: 16px;
   font-weight: 600;
   line-height: 32px;
@@ -87,14 +87,14 @@ body {
   margin-bottom: 4px;
   white-space: nowrap;
 }
-.nav-frame .header-nav-box {
+.navbox__frame .header-nav-box {
   display: flex;
   justify-content: space-between;
 }
-.nav-frame .header-nav-box .nav-item {
+.navbox__frame .header-nav-box .nav-item {
   float: left;
 }
-.nav-frame .header-nav-box .nav-item .nav-link {
+.navbox__frame .header-nav-box .nav-item .nav-link {
   color: #CCC;
   display: block;
   font-weight: 600;
@@ -105,13 +105,13 @@ body {
   margin-right: 32px;
   transition: all 0.1S;
 }
-.nav-frame .header-nav-box .nav-item .nav-link:hover {
+.navbox__frame .header-nav-box .nav-item .nav-link:hover {
   color: #fff;
 }
-.nav-frame .nav-btn {
+.navbox__frame .nav-btn {
   width: 158px;
 }
-.nav-frame .nav-btn .nav-wallet {
+.navbox__frame .nav-btn .nav-wallet {
   border: 1px solid #1E50FF;
   border-radius: 16px;
   font-weight: 600;
@@ -121,7 +121,7 @@ body {
   white-space: nowrap;
   transition: all 0.3s;
 }
-.nav-frame .nav-btn .nav-wallet:hover {
+.navbox__frame .nav-btn .nav-wallet:hover {
   background-color: #1E50FF;
   color: #fff;
 }
@@ -707,6 +707,7 @@ body {
   width: 32px;
   font-size: 32px;
   line-height: 32px;
+  border: 1px solid #fff;
 }
 
 .copyright {

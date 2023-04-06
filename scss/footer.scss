@@ -1,14 +1,14 @@
 // footer
-.footer-logo{
+.footer__logo{
     display: inline-block;
     margin-top: 88px;
     vertical-align: top;
-    .nav-box-1{
+    .navbox{
         display: inline-block;
         margin-top: 8px;
         margin-bottom: 8px;
         padding: 0;
-        .nav-images{
+        .navbox__images{
             display: inline-block;
             background-size: contain;
             background-repeat: no-repeat;
@@ -16,7 +16,7 @@
             width: 43px;
             height: 40px;
         }
-        .nav-text{
+        .navbox__text{
             display: inline-block;
             font-size: 16px;
             font-weight: 600;
@@ -27,7 +27,7 @@
             white-space: nowrap;
         }
     }
-    .footer-para{
+    .footer__para{
         display: block;
         color: #ADB9C7;
         font-weight: 400;
@@ -36,42 +36,42 @@
         width: 392px;
     }
 }
-.footer-Resources{
+.footer__Resources{
     display: inline-block;
     vertical-align: top;
     margin-top: 88px;
     margin-left: 88px;
     margin-right: 88px;
 }
-.footer-Company{
+.footer__Company{
     display: inline-block;
     vertical-align: top;
     margin-top: 88px;
 }
-.footer-Contact{
+.footer__Contact{
     vertical-align: top;
     display: inline-block;
     margin-top: 88px;
     width: 179px;
     margin-left: 88px;
-    .footer-Contact-text{
+    .footer__Contact-text{
         font-weight: 400;
         font-size: 16px;
         line-height: 32px;
         color: #ADB9C7;
     }
 }
-.footer-Resources-title{
+.footer__Resources-title{
     margin-bottom: 24px;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     color: #fff;
 }
-.footer-Resources-text{
-    .footer-Resources-item{
+.footer__Resources-text{
+    .footer__Resources-item{
         margin-bottom: 16px;
-        .footer-Resources-link{
+        .footer__Resources-link{
             font-weight: 400;
             font-size: 16px;
             line-height: 32px;

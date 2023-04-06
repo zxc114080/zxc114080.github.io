@@ -1,4 +1,4 @@
-.nav-frame {
+.navbox__frame {
   display: flex;
   justify-content: space-between;
   height: 56px;
@@ -6,7 +6,7 @@
   width: 100%;
   margin-top: 20px;
 }
-.nav-frame .nav-box-1 {
+.navbox__frame .navbox {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
@@ -15,7 +15,7 @@
   width: 140px;
   height: 40px;
 }
-.nav-frame .nav-box-1 .nav-images {
+.navbox__frame .navbox .navbox__images {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -24,7 +24,7 @@
   width: 43px;
   height: 40px;
 }
-.nav-frame .nav-box-1 .nav-text {
+.navbox__frame .navbox .navbox__text {
   font-size: 16px;
   font-weight: 600;
   line-height: 32px;
@@ -33,14 +33,14 @@
   margin-bottom: 4px;
   white-space: nowrap;
 }
-.nav-frame .header-nav-box {
+.navbox__frame .header-navbox {
   display: flex;
   justify-content: space-between;
 }
-.nav-frame .header-nav-box .nav-item {
+.navbox__frame .header-navbox .navmenu__item {
   float: left;
 }
-.nav-frame .header-nav-box .nav-item .nav-link {
+.navbox__frame .header-navbox .navmenu__item .navmenu__link {
   color: #CCC;
   display: block;
   font-weight: 600;
@@ -51,13 +51,13 @@
   margin-right: 32px;
   transition: all 0.1S;
 }
-.nav-frame .header-nav-box .nav-item .nav-link:hover {
+.navbox__frame .header-navbox .navmenu__item .navmenu__link:hover {
   color: #fff;
 }
-.nav-frame .nav-btn {
+.navbox__frame .navbtn--connect {
   width: 158px;
 }
-.nav-frame .nav-btn .nav-wallet {
+.navbox__frame .navbtn--connect .navbtn__wallet {
   border: 1px solid #1E50FF;
   border-radius: 16px;
   font-weight: 600;
@@ -67,7 +67,7 @@
   white-space: nowrap;
   transition: all 0.3s;
 }
-.nav-frame .nav-btn .nav-wallet:hover {
+.navbox__frame .navbtn--connect .navbtn__wallet:hover {
   background-color: #1E50FF;
   color: #fff;
 }/*# sourceMappingURL=header.css.map */
