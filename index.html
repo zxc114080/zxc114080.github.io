@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./vendor/fontawesome-free-6.2.1-web/css/all.min.css">
     <link rel="stylesheet" href="./vendor/OwlCarousel2-2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./vendor/Hover-master/hover-min.css">
-    <link rel="stylesheet" href="./vendor/animate.min/animate.min.css">
+    <link rel="stylesheet" href="./vendor/animate.min/animate.css">
     <!-- CSS custom -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/btn.css">   
@@ -68,14 +68,14 @@
             <div class="hero">
                 <div class="container">
                     <div class="hero-box">
-                        <h1 class="hero-title animate__animated animate__zoomInDown">Discover a New Era of Crypto Currency</h1>
-                        <h4 class="hero-para animate__animated animate__jackInTheBox">Panda NFT is the primier marketplace for NFT, which are digital items you can truly own. Digital items have existed for a long time, but never like this.</h4>
-                        <a href="#!" class="hero-btn hvr-hang animate__animated animate__rollIn">
+                        <h1 class="hero-title animate__animated animate__bounceInLeft ">Discover a New Era of Crypto Currency</h1>
+                        <h4 class="hero-para animate__animated animate__bounceInLeft animate__delay-200ms">Panda NFT is the primier marketplace for NFT, which are digital items you can truly own. Digital items have existed for a long time, but never like this.</h4>
+                        <a href="#!" class="hero-btn animate__animated animate__bounceInLeft animate__delay-300ms" >
                             <div class="hero-text"> Get Started</div>
                         </a>
                     </div>
                     <div class="card-container">
-                        <div class="hero-card-1 js-fadeInRight">
+                        <div id="Previous" class="hero-card-1 tabcontent">
                             <div class="card-box-1">
                                 <div class="card-image" style="background-image: url('./images/card-Image1.png');"></div>                
                                 <div class="card-text">
@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hero-card-1 hero-card-1_adjust js-fadeInRight">
+                        <div id="Next" class="hero-card-1 tabcontent none">
                             <div class="card-box-1">
                                 <div class="card-image" style="background-image: url('./images/card-Image8.png');"></div>
                                 <div class="card-text">
@@ -117,6 +117,31 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="card-box-2">
+                                <div class="card-name">"Hamlet Contemplates ...</div>
+                                <a href="" class="card-btn">
+                                    <div class="card-bsc-btn">BSC</div>
+                                </a>                           
+                            </div>
+                            <div class="card-box-3">
+                                <div class="card-user">
+                                    <div class="user-image">
+                                        <img src="./images/Background-01.png" alt="">
+                                    </div>
+                                    <div class="card-text-0">
+                                        <div class="card-text-1">Creator</div>
+                                        <div class="card-text-2">SalvadorDali</div>
+                                    </div>
+                                </div>
+                                <div class="card-bid">
+                                    <div class="card-text-3">Current Bid</div>
+                                    <div class="card-text-4">4.89 eTH</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCity(event, 'Previous')"><span></span></button>
+                            <button class="tablinks" onclick="openCity(event, 'Next')"><span></span></button>
                         </div>
                     </div>      
                 </div>
@@ -622,7 +647,7 @@
 
         <!-- Start Footer -->
         <div class="container">
-            <div class="footer__logo js-fadeInLeft">
+            <div class="footer__logo">
                 <a href="#!" class="footer__logo-link navbox">
                         <div class="footer__logo-images navbox__images">
                             <img src="./images/Panda-Esport.png" alt="Panda">
@@ -631,47 +656,47 @@
                 </a>
                 <p class="footer__para">The world's first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.</p>
             </div>
-            <div class="footer__Resources js-fadeInRight">
+            <div class="footer__Resources">
                 <div class="footer__Resources-title">Resources</div>
                 <ul class="footer__Resources-text">
-                    <li class="footer__Resources-item">
+                    <li class="footer__Resources-item hvr-underline-reveal">
                         <a href="#!" class="footer__Resources-link">Help Center</a>
                     </li>
-                    <li class="footer__Resources-item">
+                    <li class="footer__Resources-item hvr-underline-reveal">
                         <a href="#!" class="footer__Resources-link">Platform Status</a>
                     </li>
-                    <li class="footer__Resources-item">
+                    <li class="footer__Resources-item hvr-underline-reveal">
                         <a href="#!" class="footer__Resources-link">Partners</a>
                     </li>
-                    <li class="footer__Resources-item">
+                    <li class="footer__Resources-item hvr-underline-reveal">
                         <a href="#!" class="footer__Resources-link">Gas-Free Marketplace</a>
                     </li>
-                    <li class="footer__Resources-item">
+                    <li class="footer__Resources-item hvr-underline-reveal">
                         <a href="#!" class="footer__Resources-link">Blog</a>
                     </li>
                 </ul>
             </div>
-            <div class="footer__Company js-fadeInRight">
+            <div class="footer__Company">
                 <div class="footer__Resources-title">Company</div>
                 <ul class="footer__Resources-text">
-                    <li class="footer__Resources-item">
+                    <li class="footer__Resources-item hvr-underline-reveal">
                         <a href="#!" class="footer__Resources-link">Our Team</a>
                     </li>
-                    <li class="footer__Resources-item">
+                    <li class="footer__Resources-item hvr-underline-reveal">
                         <a href="#!" class="footer__Resources-link">About Us</a>
                     </li>
-                    <li class="footer__Resources-item">
+                    <li class="footer__Resources-item hvr-underline-reveal">
                         <a href="#!" class="footer__Resources-link">Contact Us</a>
                     </li>
-                    <li class="footer__Resources-item">
+                    <li class="footer__Resources-item hvr-underline-reveal">
                         <a href="#!" class="footer__Resources-link">Career</a>
                     </li>
                 </ul>
             </div>
-            <div class="footer__Contact js-fadeInRight">
+            <div class="footer__Contact">
                 <div class="footer__Resources-title">Company</div>
                 <h6 class="footer__Contact-text">2715 Ash Dr. San Jose, South Dakota 83475</h6>
-                <a href="#!" class="footer_Contact-item">
+                <a href="#!" class="footer_Contact-item" >
                     <i class="fa-brands fa-facebook"></i>
                 </a>
                 <a href="#!" class="footer_Contact-item">
@@ -681,7 +706,7 @@
                     <i class="fa-brands fa-instagram"></i>
                 </a>
             </div>
-            <div class="copyright js-fadeInBottom">
+            <div class="copyright">
 				<p>© Copyright 2020 All rights reserved</p>
 			</div>
         </div>
@@ -732,5 +757,24 @@
         reset: true,
         interval: 200
     });
+    function openCity(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
 </script>
 </html>
