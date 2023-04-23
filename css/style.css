@@ -60,7 +60,7 @@ body {
   width: 100%;
   margin-top: 20px;
 }
-.navbox__frame .nav-box-1 {
+.navbox__frame .navbox {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
@@ -69,7 +69,7 @@ body {
   width: 140px;
   height: 40px;
 }
-.navbox__frame .nav-box-1 .nav-images {
+.navbox__frame .navbox .navbox__images {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -78,7 +78,7 @@ body {
   width: 43px;
   height: 40px;
 }
-.navbox__frame .nav-box-1 .nav-text {
+.navbox__frame .navbox .navbox__text {
   font-size: 16px;
   font-weight: 600;
   line-height: 32px;
@@ -87,14 +87,14 @@ body {
   margin-bottom: 4px;
   white-space: nowrap;
 }
-.navbox__frame .header-nav-box {
+.navbox__frame .header-navbox {
   display: flex;
   justify-content: space-between;
 }
-.navbox__frame .header-nav-box .nav-item {
+.navbox__frame .header-navbox .navmenu__item {
   float: left;
 }
-.navbox__frame .header-nav-box .nav-item .nav-link {
+.navbox__frame .header-navbox .navmenu__item .navmenu__link {
   color: #CCC;
   display: block;
   font-weight: 600;
@@ -105,13 +105,13 @@ body {
   margin-right: 32px;
   transition: all 0.1S;
 }
-.navbox__frame .header-nav-box .nav-item .nav-link:hover {
+.navbox__frame .header-navbox .navmenu__item .navmenu__link:hover {
   color: #fff;
 }
-.navbox__frame .nav-btn {
+.navbox__frame .navbtn--connect {
   width: 158px;
 }
-.navbox__frame .nav-btn .nav-wallet {
+.navbox__frame .navbtn--connect .navbtn__wallet {
   border: 1px solid #1E50FF;
   border-radius: 16px;
   font-weight: 600;
@@ -121,7 +121,7 @@ body {
   white-space: nowrap;
   transition: all 0.3s;
 }
-.navbox__frame .nav-btn .nav-wallet:hover {
+.navbox__frame .navbtn--connect .navbtn__wallet:hover {
   background-color: #1E50FF;
   color: #fff;
 }
@@ -180,7 +180,7 @@ body {
 }
 
 .card-container {
-  display: flex;
+  overflow: hidden;
 }
 
 .card-container .hero-card-1 {
@@ -616,18 +616,18 @@ body {
   color: #fff;
 }
 
-.footer-logo {
+.footer__logo {
   display: inline-block;
   margin-top: 88px;
   vertical-align: top;
 }
-.footer-logo .nav-box-1 {
+.footer__logo .navbox {
   display: inline-block;
   margin-top: 8px;
   margin-bottom: 8px;
   padding: 0;
 }
-.footer-logo .nav-box-1 .nav-images {
+.footer__logo .navbox .navbox__images {
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
@@ -635,7 +635,7 @@ body {
   width: 43px;
   height: 40px;
 }
-.footer-logo .nav-box-1 .nav-text {
+.footer__logo .navbox .navbox__text {
   display: inline-block;
   font-size: 16px;
   font-weight: 600;
@@ -645,7 +645,7 @@ body {
   margin-bottom: 4px;
   white-space: nowrap;
 }
-.footer-logo .footer-para {
+.footer__logo .footer__para {
   display: block;
   color: #ADB9C7;
   font-weight: 400;
@@ -654,7 +654,7 @@ body {
   width: 392px;
 }
 
-.footer-Resources {
+.footer__Resources {
   display: inline-block;
   vertical-align: top;
   margin-top: 88px;
@@ -662,27 +662,27 @@ body {
   margin-right: 88px;
 }
 
-.footer-Company {
+.footer__Company {
   display: inline-block;
   vertical-align: top;
   margin-top: 88px;
 }
 
-.footer-Contact {
+.footer__Contact {
   vertical-align: top;
   display: inline-block;
   margin-top: 88px;
   width: 179px;
   margin-left: 88px;
 }
-.footer-Contact .footer-Contact-text {
+.footer__Contact .footer__Contact-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
   color: #ADB9C7;
 }
 
-.footer-Resources-title {
+.footer__Resources-title {
   margin-bottom: 24px;
   font-weight: 700;
   font-size: 24px;
@@ -690,10 +690,10 @@ body {
   color: #fff;
 }
 
-.footer-Resources-text .footer-Resources-item {
+.footer__Resources-text .footer__Resources-item {
   margin-bottom: 16px;
 }
-.footer-Resources-text .footer-Resources-item .footer-Resources-link {
+.footer__Resources-text .footer__Resources-item .footer__Resources-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
@@ -716,6 +716,14 @@ body {
   line-height: 24px;
   padding: 16px 0;
   font-size: 14px;
+}
+
+.footer__Resources .footer__Resources-text {
+  width: 179px;
+}
+
+.footer__Company .footer__Resources-text {
+  width: 120px;
 }
 
 .owl-theme .owl-dots {
@@ -775,4 +783,45 @@ body {
 .owl-theme .user-image {
   width: 56px;
   height: 56px;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 16px;
+  background-color: #02050E;
+}
+
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background-color: #ced4da;
+  transition: all 0.3s;
+}
+
+.tab button.active {
+  background-color: #1E50FF;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.hero-card-1.tabcontent.none {
+  display: none;
 }/*# sourceMappingURL=Style.css.map */

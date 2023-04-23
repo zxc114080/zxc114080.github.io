@@ -98,4 +98,12 @@
   line-height: 24px;
   padding: 16px 0;
   font-size: 14px;
+}
+
+.footer__Resources .footer__Resources-text {
+  width: 179px;
+}
+
+.footer__Company .footer__Resources-text {
+  width: 120px;
 }/*# sourceMappingURL=footer.css.map */
