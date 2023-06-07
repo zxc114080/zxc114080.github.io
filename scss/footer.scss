@@ -1,0 +1,46 @@
+.footer__text{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 103px;
+    text-transform: capitalize;
+    padding-top: 32px;
+}
+.footer__address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding-bottom: 65px;
+}
+.footer_menu{
+    padding-top: 59px;
+    .footer__item{
+        .footer__link{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 25px;
+            text-transform: capitalize;
+            white-space: nowrap;
+        }
+    }
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.footer__payment{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: capitalize;
+    padding-top: 80px; 
+    text-align: center;
+    margin-bottom: 15px;
+}
