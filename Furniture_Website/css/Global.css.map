@@ -1,1 +1,1 @@
-{"version":3,"sources":["../scss/Global.scss","Global.css"],"names":[],"mappings":"AAAA;EACI,sBAAA;EACA,kBAAA;ACCJ;;ADCA;EACI,oBAAA;ACEJ;;ADAA;EACC,SAAA;ACGD;;ADDA;EACC,SAAA;EACA,UAAA;EACA,gBAAA;ACID;;ADFA;EACC,qBAAA;EACA,WAAA;ACKD","file":"Global.css"}
+{"version":3,"sourceRoot":"","sources":["../../Panda__NFT__Project/scss/Global.scss"],"names":[],"mappings":";AACA;EACC;EACA;;;AAED;EACC;;;AAED;EACC;;;AAED;EACC;EACA;EACA;;;AAED;EACC;EACA","file":"Global.css"}

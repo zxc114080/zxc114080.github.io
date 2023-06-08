@@ -59,16 +59,39 @@
     opacity: 0.5;
     padding-bottom: 216px;
 }
+@media screen and (max-width:768px) {
+    .content1__text{
+        padding-bottom: 32px;
+    }
+}
 .card__container{
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .product__card{
-    display: inline-block;
+    height: 100%;
+    // display: inline-block;
     .card__image{
-        display: inline-block;
+        width: 100%;
+        border: 1px solid #000;
+        &:before{
+            content: "";
+            display: block;
+            width: 100%;
+            padding-top: 125%;
+        }
+        .image{
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
     }
     .card__text{
         display: flex;

@@ -1,10 +1,11 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   position: relative;
 }
 
 html, body {
-  font-family: "Inter";
+  font-family: "微軟正黑體", arial;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -19,5 +20,5 @@ ul {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }/*# sourceMappingURL=Global.css.map */
