@@ -1,0 +1,633 @@
+// * Page name
+// * Copyright 2023
+// * Author
+// * Licensed
+
+
+	// Content
+
+
+
+//  * Content ............ You are reading it!
+//  * Globel ............ Set common styles
+//  * Layout ............ Set grid styles
+//  * Component ............ Set component styles
+//  * Utility ............ Set some tools style
+
+
+ @import "Global.scss";
+ 
+// Valu
+body{
+    background-color: #02050E;
+}
+@import "btn.scss";
+
+    // Layout
+.container{
+    max-width: 1199px;
+    // width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+// Component
+.wrapper{
+    background-color: #02050E;
+    height: 100vh;
+}
+@import "header.scss";
+// hero
+.hero{
+    top: 0;
+    left: 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        height: 640px;
+        align-items: center;
+    }
+}
+
+.hero-box{
+    .hero-title{
+        width: 631px;
+        font-size: 64px;
+        line-height: 80px;
+        font-weight: 700;
+        color: #fff;
+    	text-align: justify;
+    }
+    .hero-para{
+        width: 585px;
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+        margin-top: 24px;
+        color: #adb9c7;
+    	text-align: justify;
+    }
+    .hero-btn{
+        display: block;
+        height: 56px;
+        width: 178px;
+        background-color: #02050E;
+        border: 1px solid #1E50FF;
+        border-radius: 16px;
+        margin-top: 40px;
+        transition: all 0.3s;
+        .hero-text{
+            display: block;
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 600;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+    .hero-btn:hover{
+        color: #fff;
+        background-color: #1E50FF;
+    }
+}
+.card-container{
+    overflow: hidden;
+}
+.card-container .hero-card-1{
+    margin-left: 48px;
+    margin-right: 27px;
+}
+.hero-card-1{
+    margin-right: 20px;
+    width: 400px;
+    background-color: #272D37;
+    border-radius: 24px;
+    .card-box-1{
+        width: 400px;     
+        margin-bottom: 48px;
+        height: 352px;
+        .card-image{
+            width: 400px;     
+            height: 352px;
+            position: absolute;
+            padding-top: 100%;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-repeat: no-repeat;
+	        background-position: center;
+        }
+    }
+    .card-box-1:before{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .card-text{
+        width: 192px;
+        height: 42px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #0F182E;
+        border-radius: 16px;
+        .card-text-box{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 144px;
+            height: 26px;
+            .card-icon{
+                background-image: url('../images/001-fire.png');
+                width: 24px;
+                height: 24px;
+                display: inline-block;
+                position: absolute ;
+                left: 0;
+            }
+            .card-time{
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: justify;
+                display: inline-block;
+                position: absolute ;
+                right: 0;
+                color: #fff;
+            }
+        }
+    }
+    .card-box-2{
+        margin: 0 auto;
+        width: 353px;
+        height: 32px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        .card-name{
+            color: #fff;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            width: 267px;
+            height: 32px;
+            display: left;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .card-btn{
+            margin-left: 27px;
+            background-color: #1E50FF;
+            width: 59px;
+            height: 29px;
+            border-radius: 10px;
+            display: right;
+            .card-bsc-btn{
+                display: inline-block;
+                color: #FFF;
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 800;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+    }
+    .card-box-3{
+        padding-top: 27px;
+        margin: 0 auto;
+        width: 350.4px;
+        padding-bottom: 24px;
+        .card-user{
+            display: inline-block;
+            vertical-align: top;
+            .user-image{
+                display: inline-block;
+                vertical-align: top;
+            }
+            .card-text-0{
+                display: inline-block;
+                vertical-align: top;
+                // float: right;
+                height: 56px;
+                padding-left: 16px;
+                .card-text-1{
+                    color: #8F9CA9;
+                    line-height: 26px;
+                    font-weight: 400;
+                    font-size: 16px;
+                }   
+                .card-text-2{
+                    color: #fff;
+                    line-height: 28px;
+                    font-weight: 700;
+                    font-size: 18px;
+                } 
+            }
+        }    
+        .card-bid{
+            float: right;
+            width: 81.84px;
+            height: 41.85px;
+            .card-text-3{
+                color: #8A8AA0;
+                white-space: nowrap;
+            }
+            .card-text-4{
+                color: #fff;
+                font-size: 19px;
+                text-align: justify;
+            }
+        }
+    }
+}
+.hero-card-1.hero-card-1_adjust{
+    margin-left: 0;
+    height: 400px;
+    .card-box-1{
+        margin-bottom: 0;
+    }
+}
+
+// logo
+.logo-brand{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 80px;
+    margin-top: 53.5px;
+    .logo-item{
+        margin: auto 0;
+    }
+}
+// Start Create and sell your NFTs
+.yourNFTs{
+    margin-top: 157.4px;
+    margin-bottom: 160px;
+}
+.yourNFTs-text-box{
+    width: 583px;
+    height: 128px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+    .yourNFTs-text{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #fff;
+        text-align: center;
+    }
+    
+}
+
+.yourNFTs-box{
+    text-align: center;
+    background: #272D37;
+    border-radius: 16px;
+    height: 368px;
+    .yourNFTs-box-icon{
+        display: inline-block;
+        margin-top: 56px;
+        margin-bottom: 48px;
+    }
+    .yourNFTs-box-text{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #fff;
+    }
+    .yourNFTs-box-para{
+        display: inline-block;
+        margin-top: 24px;
+        margin-bottom: 56px;
+        width: 306px;
+        height: 72px;
+        color: #ADB9C7;
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+// Start Live Auctions
+.SLA-frame{
+    margin-bottom: 56px;
+    height: 64px;
+    .SLA-text{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #fff;
+        float: left;
+    }
+    .SLA-btn{
+        float: right;
+        transition: all 0.3s;
+        @extend %btn
+    }
+    .SLA-btn:hover{
+        background-color: #1E50FF;    
+    }
+}
+// .SLA{
+//     .hero-card-1{
+//         background-color: #272D37;
+//         border-radius: 24px;
+//         padding: 0;
+//         margin: 0;
+//         width: 100%;
+//     }
+//     .card-box-2{
+//         // margin-top: 56px;
+//     }
+//     .card-box-3{
+//         padding-bottom: 24px;
+//     }
+// }
+// Start Featured Artist
+.FA-frame{
+    margin-top: 160px;
+    margin-bottom: 56px;
+    height: 64px;
+    .FA-text{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #fff;
+        float: left;
+    }
+    .FA-btn{
+        float: right;
+        transition: all 0.3S;
+        @extend %btn
+    }
+    .FA-btn:hover{
+        background-color: #1E50FF;    
+    }
+}
+.FA-card{
+    padding: 8px;
+    background-color: #272D37;
+    border-radius: 16px;
+    .FA-img-container{
+        border-radius: 16px;
+        overflow: hidden;
+        /*border: 1px solid #000;*/
+        .FA-image{
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .FA-img-container:before{
+        content: '';
+        display: block;
+        width: 100%;
+        padding-top: 75%;
+    }
+    .FA-user-img-container{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-36%);
+    }
+    .FA-name{
+        display: block;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 8px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #fff;
+    }
+    .FA-text{
+        display:block;
+        text-align: center;
+        margin-bottom: 24px;
+        .FA-icon{
+            display: inline-block;
+        }
+        .FA-money{
+            display: inline-block;
+            margin-left: 4px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #fff;
+        }
+    }
+}
+// Start Hot NFTs
+.HN-frame{
+    margin-top: 160px;
+    margin-bottom: 56px;
+
+    .HN-text{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #fff;
+        display: inline-block;
+    }
+    .HN{
+        float: right;
+        .HN-item{
+            border: 1px solid #1E50FF;
+            background: rgba(30, 80, 255, 0.1);
+            border-radius: 8px;
+            float: left;
+            padding: 16px;
+            margin-right: 24px;
+            transition: all 0.3S;
+            .HN-link{
+                display: block;
+                line-height: 24px;
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+            .HN-link:hover{
+                color: #fff;
+            }
+        }
+        .HN-item:hover{
+            background: #1E50FF;
+        }
+        .HN-item:last-child{
+            margin-right: 0px;
+        }
+        
+    }
+}
+.HN-BGC{
+    background-color: #272D37;
+    border-radius: 16px;
+    padding: 0;
+    padding-right: 12px;
+}
+.col-lg-4.NH-pad{
+    padding-right: 24px;
+    padding-left: 0;
+}
+.col-lg-4.NH-pad:last-child{
+    padding-right: 0;
+}
+.HN-margin{
+    margin-top: 32px;
+}
+.HN-btn{
+    display: block;
+    margin-top: 56px;
+    margin: 56px auto 168px auto;
+    transition: all 0.3S;
+    @extend %btn
+}
+.HN-btn:hover{
+    background-color: #1E50FF;
+    color: #fff;
+}
+// CTA
+.CTA{
+    border: 1px solid #fff;
+    text-align: center;
+    margin-bottom: 160px;
+    background: radial-gradient(151.95% 463.58% at -44.29% -62.34%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(37px);
+    border-radius: 16px;
+    .CTA-title{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: #fff;
+        margin-top: 48px;
+        margin-bottom: 24px;
+    }
+    .CTA-para{
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    .CTA-btn{
+        margin-bottom: 48px;
+        width: 239px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        padding: 16px;
+        transition: all 0.3s;
+        @extend %btn       
+    }
+    .CTA-btn:hover{
+        background-color: #1E50FF;
+        color: #fff;
+    }
+}
+@import "footer.scss";
+// siler plugin setting
+.owl-theme .owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.owl-theme .owl-dots button.owl-dot{
+    width: 15px;
+    height: 15px;
+    margin: 0 4px;
+    border-radius: 50%;
+    background-color: #ced4da;
+    outline: none;
+}
+.owl-theme .owl-dots button.owl-dot.active{
+    background-color: #1E50FF;
+}
+.owl-theme .owl-nav{
+    position: absolute;
+    left: 0;
+    top: calc((100% - 154px) / 2);
+    width: 100%;
+}
+.owl-theme .owl-nav button.owl-prev,
+.owl-theme .owl-nav button.owl-next{
+    width: 50px;
+    height: 50px;
+    background-color: #1E50FF;
+    border-radius: 50%;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    transform: translate(0,-50%);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+.owl-theme:hover .owl-nav button.owl-prev,
+.owl-theme:hover .owl-nav button.owl-next{
+    opacity: 1;
+}
+.owl-theme .owl-nav button.owl-prev{
+    left: -26px;
+}
+
+.owl-theme .owl-nav button.owl-next{
+    right: -26px;
+}
+.owl-theme .user-image{
+    width: 56px;
+    height: 56px;
+}
+// Tabs try
+//  Style the tab
+.tab {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 16px;
+    background-color: #02050E;
+}
+  
+//    Style the buttons that are used to open the tab content
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin: 0 4px;
+    border-radius: 50%;
+    background-color: #ced4da;
+    transition: all 0.3s;
+}
+// Create an active/current tablink class
+.tab button.active {
+    background-color: #1E50FF;
+  }
+  
+// Style the tab content
+.tabcontent {
+    animation: fadeEffect 1s;
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.hero-card-1.tabcontent.none{
+    display: none;
+}

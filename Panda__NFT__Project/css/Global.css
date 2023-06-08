@@ -1,0 +1,24 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html, body {
+  font-family: "微軟正黑體", arial;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=Global.css.map */
