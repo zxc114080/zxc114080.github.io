@@ -3,9 +3,31 @@
     width: 1200px;
     margin: 0 auto;
 }
-.col-1-5{  
-    flex: 0 0 auto;
-    width: 20%;
+@media (min-width: 992px) {
+    .col-1-5{  
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+.service__card--image{
+    height: 100%;
+    width: 100%;
+    &:before{
+        content: "";
+        display: block;
+        width: 100%;
+        padding-top: 125%;
+    }
+    .image{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 // Component
 .content{
@@ -199,7 +221,7 @@
 }
 .overlapping__card{
     height: 330px;
-    width: 360px;
+    width: 100%;
     background: #FFFFFF;
     border-radius: 25px 25px 0px 0px;
     margin-top: 151px;
@@ -291,7 +313,7 @@
         font-size: 21px;
         line-height: 25px;
         text-transform: capitalize;
-        width: 267px;
+        // width: 267px;
         margin-top: 4px;
         margin-bottom: 57px;
     }
@@ -308,6 +330,15 @@
             top: 50%;
             transform: translate(-50%,-50%);
         }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content5__textbox,.content5__addresstext,.content5__address,.footer__text,.footer__address{
+        text-align: center;
+    }
+    .content5__address{
+        text-align: center;
     }
 }
 .line{

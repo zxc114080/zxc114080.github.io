@@ -20,6 +20,9 @@
 .footer_menu {
   padding-top: 59px;
 }
+.footer_menu .footer__item {
+  text-align: center;
+}
 .footer_menu .footer__item .footer__link {
   font-style: normal;
   font-weight: 400;
@@ -27,6 +30,7 @@
   line-height: 25px;
   text-transform: capitalize;
   white-space: nowrap;
+  text-align: center;
 }
 
 .mb-15 {
@@ -46,4 +50,39 @@
   padding-top: 80px;
   text-align: center;
   margin-bottom: 15px;
+}
+
+.footer__image {
+  margin: auto;
+}
+.footer__image img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__address {
+    padding-bottom: 20px;
+  }
+  .col-2.footer__none {
+    display: none;
+  }
+  .footer_menu {
+    text-align: center;
+    padding-top: 25px;
+  }
+  .footer_menu .footer__item .footer__link {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .footer__image {
+    text-align: center;
+  }
+  .footer__image img {
+    height: 100%;
+    width: 100%;
+  }
+  .footer__payment {
+    padding-top: 30px;
+  }
 }/*# sourceMappingURL=footer.css.map */
